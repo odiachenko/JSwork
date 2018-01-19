@@ -1,6 +1,4 @@
 var caesarShift = function(str, key) {
-    var str = "Hello world";
-	var key = 1;
 	
 	// Wrap the amount
 	if (key < 0)
@@ -35,5 +33,5 @@ var caesarShift = function(str, key) {
 	// All done!
 	return output;
 }
-var result = caesarShift("Hello world", 1);
+var result = caesarShift("hfgdhjjj", 2);
 	console.log(result)
