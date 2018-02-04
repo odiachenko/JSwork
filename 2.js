@@ -1,8 +1,9 @@
+//test
 var encryptVizenerShift = function(str, key) {
 
 	// Make an output variable
 	var output = '';
-	
+
 	// Go through each character
 	for (var i = 0; i < str.length; i ++) {
 
@@ -24,7 +25,7 @@ var decryptVizenerShift = function(str, key) {
 
 	// Make an output variable
 	var output = '';
-	
+
 	// Go through each character
 	for (var i = 0; i < str.length; i ++) {
 
@@ -45,6 +46,6 @@ var decryptVizenerShift = function(str, key) {
 }
 var result = encryptVizenerShift("hfgdhjjj", "abc");
 	console.log(result)
-	
+
 var result2 = decryptVizenerShift(result, "abc");
-	console.log(result2)	
+	console.log(result2)
