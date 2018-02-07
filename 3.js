@@ -19,7 +19,7 @@ con.query(sql, function (err, result) {
   console.log("1 record inserted");
 });
 
-var sql = "SELECT * FROM news";
+var sql = "SELECT * FROM news WHERE Title = 'Ukraine'";
 con.query(sql, function (err, result) {
   if (err) throw err;
   console.log(result);
