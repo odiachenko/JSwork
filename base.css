@@ -1,0 +1,29 @@
+body, html {
+margin:0px;
+padding:0px;
+}
+#header {
+    background: orange;
+    width: 100%;
+}
+#footer {
+    background: red;
+    width: 100%;
+    clear: both;
+}
+#left {
+    background: yellow;
+    width: 200 px;
+    float: left;
+
+}
+#right {
+    background: blue;
+    width: 200 px;
+    margin-left: 202 px;
+
+}
+#container {
+    width: 800 px;
+    margin: auto;
+}
